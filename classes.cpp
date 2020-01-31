@@ -115,7 +115,7 @@ class FirstOption: public Display
         };
 
         patient_info ak;
-        cout<<"\n********************************************************************\n";pat_file<<"\n********************************************************************\n\n";//fn1353 st
+        cout<<"\n********************************************************************\n";pat_file<<"\n********************************************************************\n\n";
         cout<<"\nName : ";pat_file<<"Name : ";cin>>ak.name;pat_file<<ak.name<<"\n";
         cout<<"\nAddress : ";pat_file<<"Address : ";cin>>ak.address;pat_file<<ak.address<<"\n";
         cout<<"\nContact Number : ";pat_file<<"Contact Number : ";cin>>ak.contact;pat_file<<ak.contact<<"\n";
